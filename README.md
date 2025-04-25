@@ -45,7 +45,61 @@ This project is divided into two main subsystems:
 
 ---
 
-## 🔁 Serial Communication Protocol
+## 📱 App Integration
 
-The Arduino Pro Mini sends messages like:
+Created using **MIT App Inventor**:
+- Manual toggle of all 4 relays
+- View real-time sensor alerts
+- Set automation time for sprinklers/relays
+- Works offline in **Wi-Fi AP Mode**
+
+---
+
+## 🧑‍💻 Installation
+
+1. Upload `ESP32Automation.ino` to ESP32.
+2. Upload `ArduinoSecurity.ino` to Arduino Pro Mini.
+3. Open and install the `.aia` project in MIT App Inventor.
+4. Power both boards and verify UART connection.
+5. Use the app or web UI to control devices.
+
+---
+
+## 🛠 Libraries Used
+
+### ESP32:
+- `WiFi.h`
+- `ESPAsyncWebServer.h`
+- `RTClib.h`
+- `OneWire`, `DallasTemperature` (if DS18B20 used)
+
+### Arduino Pro Mini:
+- `SoftwareSerial.h` (if required for GSM or extra UART)
+- Standard sensor libraries
+
+---
+
+## 🚀 Future Improvements
+
+- 🔐 Integrate fingerprint or keypad access
+- ☁️ Switch to MQTT for remote cloud access
+- 📷 Add camera for visual alerts
+- 💬 Add Telegram or SMS alert system
+- 💾 SD card for local data logging
+
+---
+
+## 🧠 Author
+
+**Tilak Raval**  
+*aka* **His Algorithmic Highness**  
+Aspiring PhD in AI & Robotics 🤖
+
+---
+
+## 📝 License
+
+This project is licensed under the MIT License.  
+Feel free to fork, modify, and build upon it!
+
 
