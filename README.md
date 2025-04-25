@@ -92,8 +92,7 @@ Created using **MIT App Inventor**:
 ## 🧠 Author
 
 **Tilak Raval**  
-*aka* **His Algorithmic Highness**  
-Aspiring PhD in AI & Robotics 🤖
+Aspiring AI & Robotics 🤖 Master
 
 ---
 
